@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XtraPivotGrid_SaveLoadCollapsedState", "XtraPivotGrid_SaveLoadCollapsedState\XtraPivotGrid_SaveLoadCollapsedState.vbproj", "{EE1AE358-CCED-41FC-91BB-54D27009204F}"
 EndProject
 Global
@@ -15,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {143121A6-A04B-4BF2-97C0-48A8A3F3E66F}
 	EndGlobalSection
 EndGlobal
