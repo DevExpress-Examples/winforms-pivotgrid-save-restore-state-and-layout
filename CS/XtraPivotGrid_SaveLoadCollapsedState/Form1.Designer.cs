@@ -151,7 +151,7 @@ namespace XtraPivotGrid_SaveLoadCollapsedState {
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.pivotGridControl1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "RestoreLayoutExample";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).EndInit();
             this.ResumeLayout(false);

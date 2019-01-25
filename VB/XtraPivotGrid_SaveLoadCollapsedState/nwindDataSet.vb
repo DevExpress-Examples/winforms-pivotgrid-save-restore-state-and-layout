@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace XtraPivotGrid_SaveLoadCollapsedState
+﻿Namespace XtraPivotGrid_SaveLoadCollapsedState
 
 
 	Partial Public Class nwindDataSet

@@ -6,8 +6,10 @@
 # How to save/load field values' collapsed states together with pivot grid's layout
 
 
-<p>Field values' collapsed states can be restored only in the same layout they have been saved in. This example shows how to save and load a control's layout together with collapsed states to ensure that the states are loaded in the appropriate layout.</p><p>This example displays a pivot grid control and three buttons: Save, Load and Clear. When the Save button is clicked, the control layout and field values' collapsed states are saved to streams via the SaveLayoutToStream and SaveCollapsedStateToStream methods, respectively. On the Load button click, the RestoreLayoutFromStream method is firstly called to restore the layout, and then the collapsed states are loaded using the LoadCollapsedStateFromStream method. This ensures that even if you remove all fields from the pivot grid via the Clear button, the control's state will be restored when you click the Load button.</p>
+This example demonstrates how to restore a Pivot Grid's layout and row/column collapsed state.
 
-<br/>
+The **Save** button uses the [PivotGridControl.SaveLayoutToStream](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.SaveLayoutToStream.overloads) and [PivotGridControl.SaveCollapsedStateToStream](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.SaveCollapsedStateToStream(System.IO.Stream)) methods to save the layout and field values' collapsed state to memory streams.
 
+The **Load** button uses the [PivotGridControl.RestoreLayoutFromStream ](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.RestoreLayoutFromStream.overloads) and [PivotGridControl.LoadCollapsedStateFromStream](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.LoadCollapsedStateFromStream(System.IO.Stream)) methods.
 
+![screenshot](https://github.com/DevExpress-Examples/how-to-save-load-field-values-collapsed-states-together-with-pivot-grids-layout-e20014/blob/13.1.4%2B/images/screenshot.png)
