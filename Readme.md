@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/XtraPivotGrid_SaveLoadCollapsedState/Form1.cs) (VB: [Form1.vb](./VB/XtraPivotGrid_SaveLoadCollapsedState/Form1.vb))
+* [Form1.cs](./CS/XtraPivotGrid_RestoreLayoutExample/Form1.cs) (VB: [Form1.vb](./VB/XtraPivotGrid_RestoreLayoutExample/Form1.vb))
 <!-- default file list end -->
 # How to Restore the Pivot Grid's Layout
 
