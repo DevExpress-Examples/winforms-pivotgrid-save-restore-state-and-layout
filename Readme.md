@@ -9,8 +9,6 @@
 * [Form1.cs](./CS/XtraPivotGrid_RestoreLayoutExample/Form1.cs) (VB: [Form1.vb](./VB/XtraPivotGrid_RestoreLayoutExample/Form1.vb))
 <!-- default file list end -->
 # How to Restore the Pivot Grid's Layout
-![image](https://user-images.githubusercontent.com/20167812/145206365-ba564580-69fc-4953-a7a5-ee0b7710c654.png)
-
 
 This example demonstrates how to restore the Pivot Grid's layout and the row/column collapsed state.
 
