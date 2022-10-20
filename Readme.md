@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# How to Save and Restore the Pivot Grid's Layout
+# Pivot Grid for WinForms - How to Save and Restore the Pivot Grid's Layout
 
 This example demonstrates how to restore the Pivot Grid's layout and rows/columns state.
 
