@@ -4,8 +4,7 @@ using System.Windows.Forms;
 using DevExpress.Utils;
 
 namespace XtraPivotGrid_RestoreLayoutExample {
-    public partial class Form1 : DevExpress.XtraEditors.XtraForm
-    {
+    public partial class Form1 : DevExpress.XtraEditors.XtraForm {
         MemoryStream layoutStream = new MemoryStream();
         MemoryStream collapseStateStream = new MemoryStream();
         public Form1() {
@@ -18,8 +17,7 @@ namespace XtraPivotGrid_RestoreLayoutExample {
             pivotGridControl1.DataSource = excelDataSource1;
         }
         private void btnSave_Click(object sender, EventArgs e) {
-            if (pivotGridControl1.Fields.Count > 0)
-            {
+            if (pivotGridControl1.Fields.Count > 0) {
                 layoutStream.Dispose();
                 layoutStream = new MemoryStream();
                 pivotGridControl1.SaveLayoutToStream(layoutStream, OptionsLayoutBase.FullLayout);
@@ -30,8 +28,7 @@ namespace XtraPivotGrid_RestoreLayoutExample {
             }
         }
         private void btnLoad_Click(object sender, EventArgs e) {
-            if (layoutStream.Length > 0 && collapseStateStream.Length > 0)
-            {
+            if (layoutStream.Length > 0 && collapseStateStream.Length > 0) {
                 layoutStream.Seek(0, SeekOrigin.Begin);
                 pivotGridControl1.RestoreLayoutFromStream(layoutStream, OptionsLayoutBase.FullLayout);
                 collapseStateStream.Seek(0, SeekOrigin.Begin);
@@ -39,8 +36,7 @@ namespace XtraPivotGrid_RestoreLayoutExample {
             }
         }
         private void btnClear_Click(object sender, EventArgs e) {
-            if (layoutStream.Length > 0 && collapseStateStream.Length > 0)
-            {
+            if (layoutStream.Length > 0 && collapseStateStream.Length > 0) {
                 pivotGridControl1.Fields.Clear();
             }
         }
