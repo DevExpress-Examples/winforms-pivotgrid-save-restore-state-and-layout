@@ -5,7 +5,8 @@
 
 # Pivot Grid for WinForms - How to Save and Restore the Pivot Grid Layout
 
-This example demonstrates how to restore the Pivot Grid layout and rows/columns state.
+This example demonstrates how to restore the Pivot Grid layout and row/column state.
+
 
 ![screenshot](./images/screenshot.png)
 
