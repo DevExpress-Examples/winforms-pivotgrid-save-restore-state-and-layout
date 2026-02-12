@@ -30,7 +30,7 @@ The **Clear** button clears the field collection.
 
 [ASPxPivotGrid - How to Manage Pivot Grid Layout](https://github.com/DevExpress-Examples/aspxpivotgrid-layout-upgrade-event)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivotgrid-save-restore-state-and-layout&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivotgrid-save-restore-state-and-layout&~~~was_helpful=no)
 
